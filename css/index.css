@@ -1,6 +1,7 @@
 .pannel{
 	padding: 10px;
 	width: min-content;
+	width: -moz-min-content;
 	margin: 10px;
     -webkit-border-radius: 2px;
     -moz-border-radius: 2px;
