@@ -1,8 +1,60 @@
+.pannel{
+	padding: 10px;
+	width: min-content;
+	margin: 10px;
+    -webkit-border-radius: 2px;
+    -moz-border-radius: 2px;
+    border-radius: 2px;
+}
+.pannel .warpper{
+	margin: 5px;
+	background:white; 
+	display: inline-flex;
+	border: 1px solid rgba(150,150,150,0.5);
+}
+.pannel .warpper>*{
+	width: 50px;
+	padding: 10px;
+}
+.pannel .warpper .border{
+	width: 200px;
+}
+.pannel .warpper button{
+	background: rgba(220,220,220,1);
+	border: none;
+}
+.pannel .warpper button:hover{
+	background: rgba(180,180,180,1);
+	border: none;
+}
+.pannel .warpper button:active{
+	background: rgba(200,200,200,1);
+	border: none;
+	outline:none;
+}
+.pannel .warpper button:focus{
+	background: rgba(220,220,220,1);
+	border: none;
+	outline:none;
+}
+.colorInput,
+.colorInput-sm{
+	margin: 0;
+	padding: 0;
+	border: 0;
+	outline: 0;
+	width: 60px;
+	text-align: right;
+}
+
+.colorInput-sm{
+	width: 25px;
+}
 .colorCard{
 	width: 100px;
 	height: 100px;
 	box-sizing: border-box;
-    -moz-box-sizing: border-box;
-    -webkit-box-sizing: border-box;
-    float: left;
+	-moz-box-sizing: border-box;
+	-webkit-box-sizing: border-box;
+	float: left;
 }

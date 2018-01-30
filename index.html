@@ -1,13 +1,49 @@
 <!DOCTYPE html>
 <html>
-	<head>
-		<meta charset="utf-8" />
-		<title></title>
-		<script src="js/jquery-3.2.1.min.js" type="text/javascript" charset="utf-8"></script>
-		<script type="text/javascript" src="js/index.js" ></script>
-		<link rel="stylesheet" type="text/css" href="css/index.css"/>
-	</head>
-	<body>
-		<div class="box"></div>
-	</body>
+<head>
+	<meta charset="utf-8" />
+	<title>颜色格式与进制转换器</title>
+	<link rel="stylesheet" type="text/css" href="css/bootstrap.min.css"/>
+	<link rel="stylesheet" type="text/css" href="css/index.css"/>
+	<script src="js/jquery-3.2.1.min.js" type="text/javascript" charset="utf-8"></script>
+	<script type="text/javascript" src="js/index.js" ></script>
+
+</head>
+<body>
+	<div class="showcolor colorCard"></div>
+	<div class="pannel">
+		<div class="warpper">
+			<lable for="rgb-r">RGB:</lable>
+			<div class="border">
+				rgb(
+				<input class="colorInput-sm" id="rgb-r" type="text" placeholder="255">, 
+				<input class="colorInput-sm" id="rgb-g" type="text" placeholder="255">, 
+				<input class="colorInput-sm" id="rgb-b" type="text" placeholder="255">)
+			</div>
+			<button id="btn-rgb" type="button">set√</button>
+		</div>
+		<br>
+		<div class="warpper">
+			<lable for="hex" >Hex:</lable>
+			<div class="border">
+				#
+				<input class="colorInput" id="hex" type="text" placeholder="FFFFFF">
+			</div>
+			<button id="btn-hex" type="button">set√</button>
+		</div>
+		<br>
+		<div class="warpper">
+			<lable for="hsl-h" for=>HSL:</lable>
+			<div class="border">
+				hsl(
+				<input class="colorInput-sm" id="hsl-h" type="text" placeholder="360">, 
+				<input class="colorInput-sm" id="hsl-s" type="text" placeholder="100">%, 
+				<input class="colorInput-sm" id="hsl-l" type="text" placeholder="100">%)
+			</div>
+			<button id="btn-hsl" type="button">set√</button>
+		</div>
+
+	</div>
+	<div class="box"></div>
+</body>
 </html>
